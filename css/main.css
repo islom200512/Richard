@@ -1,0 +1,545 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+/* header start */
+
+header {
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+    border-radius: 0px;
+    height: 100vh;
+    background-image: url(../assets/images/bgon.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    position: relative;
+}
+
+.nav_link {
+    margin-right: 30px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+
+.header_section {
+    padding-top: 226px;
+}
+
+.header_title {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    /* identical to box height, or 100% */
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.header_info {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    /* identical to box height, or 147% */
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.button {
+    background: #FC0A7E;
+    border-radius: 3px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 40px;
+}
+
+.strelka {
+    color: #FFFFFF !important;
+    text-decoration: none;
+    font-size: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    left: 50%;
+}
+
+
+/* header end */
+
+
+/* mainOne start */
+
+.mainOne {
+    height: 100vh;
+    background: #1B1B1B;
+    background-image: url(../assets/images/bgTwo.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 100px;
+    position: relative;
+}
+
+.mainOne_content_box {}
+
+.mainOne_content_title {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+    margin-bottom: 30px;
+}
+
+.mainOne_content_text {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    /* or 126% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.strelka2 {
+    color: #FFFFFF !important;
+    text-decoration: none;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    left: 50%;
+}
+
+
+/* mainOne end */
+
+
+/* mainTwo start */
+
+.mainTwo {
+    padding-top: 80px;
+}
+
+.mainTwo_content_box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.mainTwo_content_text_box {}
+
+.mainTwo_content_title {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+    margin-bottom: 30px;
+}
+
+.mainTwo_content_info {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    color: #000000;
+    max-width: 302px;
+    margin-bottom: 22px;
+}
+
+.mainTwo_content_text {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    color: #6B6B6B;
+    max-width: 306px;
+}
+
+.mainTwo_picture {}
+
+.mainTwo_content_text_box_2 {
+    order: 2;
+}
+
+
+/* mainTwo end */
+
+
+/* mainThree start */
+
+.mainThree {
+    margin-bottom: 160px;
+}
+
+.mainThree_content_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainThree_img {
+    margin-bottom: 40px;
+}
+
+.mainThree_title {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    text-align: center;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.mainThree_text {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    text-align: center;
+    color: #6B6B6B;
+    max-width: 371px;
+}
+
+
+/* mainThree end */
+
+
+/* mainFour start */
+
+.mainFour {
+    margin-bottom: 160px;
+}
+
+.mainFour_content_box {}
+
+.mainFour_title {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 59px;
+    line-height: 90px;
+    /* identical to box height, or 153% */
+    text-align: center;
+    color: #333333;
+}
+
+.mainFour_text {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+    text-align: center;
+    color: #000000;
+}
+
+
+/* mainFour end */
+
+
+/* mainSix start */
+
+.mainSix {
+    padding-bottom: 100px;
+    margin-bottom: 42px;
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.carousel_img {
+    margin-bottom: 65px;
+}
+
+.carousel_text {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+    text-align: center;
+    color: #6B6B6B;
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+
+.carousel_flex_box {
+    display: flex;
+    align-items: center;
+    width: 270px;
+    justify-content: space-between;
+}
+
+.carousel_flex_text {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    text-align: center;
+    color: #6B6B6B;
+}
+
+.palka {
+    width: 30px;
+    height: 1px;
+    background: #D3D3D3;
+}
+
+.carousel_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button_carousel {
+    background: rgba(34, 34, 34, 0.4) !important;
+    width: 7px !important;
+    height: 7px !important;
+    padding: 0 !important;
+    border: 0!important;
+}
+
+.carousel-indicators {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -50px;
+}
+
+.carousel-indicators .active {
+    background-color: black !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    margin-right: 16px;
+}
+
+
+/* mainSix end */
+
+
+/* mainSix end */
+
+
+/* mainSeven start */
+
+.mainSeven {
+    height: 100vh;
+    background-image: url(../assets/images/bgThree.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 100px;
+}
+
+.mainSeven .container {
+    display: flex;
+    align-items: center;
+}
+
+.mainSeven_img {
+    width: 100%;
+}
+
+
+/* mainSeven end */
+
+
+/* mainEight start */
+
+.mainEight {
+    height: 50vh;
+    background: linear-gradient(276.18deg, #6E28B1 0%, rgba(0, 0, 0, 0) 100%), #FC0A7E;
+    border-radius: 0px;
+    background-image: url(../assets/images/bgfour.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {}
+
+.mainEight_bigbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainEight_content_box {}
+
+.mainEight_title {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    /* identical to box height, or 126% */
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.button_mainEight {
+    background: #FC0A7E;
+    border-radius: 3px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    color: #FFFFFF !important;
+    padding: 20px 40px;
+}
+
+.btn-outline-secondary {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 40px;
+}
+
+
+/* mainEight end */
+
+
+/* footer start */
+
+.footer {
+    background: #1B1B1B;
+    padding-top: 129px;
+    padding-bottom: 70px;
+}
+
+.container {}
+
+.footer_content_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer_title {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    /* identical to box height, or 126% */
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer_info {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    text-align: center;
+    color: #6B6B6B;
+    margin-bottom: 40px;
+}
+
+.btn-group {
+    margin-bottom: 150px;
+}
+
+.input {
+    padding: 20px;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px #FC0A7E;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.btn {}
+
+.footer button {
+    background: #FC0A7E;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.navbar {
+    flex-direction: column;
+}
+
+.footer_logo {
+    margin-bottom: 29px;
+}
+
+.nav-item {
+    display: flex;
+}
+
+.footer_link {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    text-align: center;
+    color: #6B6B6B;
+}
+
+footer .navbar {
+    margin: 0;
+}
+
+
+/* footer end */
